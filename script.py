@@ -5,3 +5,4 @@ print('-'*60)
 os.system('ping -n 10 {}'.format(ip_ou_host))
 print('-'*60)
 
+''
