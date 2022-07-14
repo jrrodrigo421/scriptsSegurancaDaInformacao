@@ -2,3 +2,7 @@ www.google.com
 1.1.1.1
 8.8.8.8
 https://github.com/jrrodrigo421/info_Security_Python
+201.69.163.3
+187.100.113.131
+201.69.164.3
+187.100.113.3
