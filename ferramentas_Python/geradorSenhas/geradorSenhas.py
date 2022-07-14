@@ -1,6 +1,6 @@
 import random, string
 
-tamanho = 16
+tamanho = int(input('Digite o tamano de senha que voce deseja: \n6'))
 
 chars = string.ascii_letters + string.digits + 'Ç!@#$$%¨&*()-_=,.;?'
 
