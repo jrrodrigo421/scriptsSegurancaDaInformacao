@@ -1,0 +1,37 @@
+#retorna HTML de qualquer pagina
+
+from bs4 import BeautifulSoup
+import requests
+
+print('###############################################')
+site  = input('''Entre com endereço Web que desejas o HTML: \n
+                Exemplo: https://www.google.com
+
+Endereco:  ''')
+print('###############################################')
+print('###############################################')
+site = requests.get(str(site)).content
+
+soup = BeautifulSoup(site, 'html.parser')
+
+print(soup.prettify())
+
+
+#retorno a INFO especifica de acordo com HTML
+
+
+# site = requests.get("https://www.cptec.inpe.br/previsao-tempo/mg/santa-rita-do-sapucai").content
+# soup = BeautifulSoup(site, 'html.parser')
+
+# # print(soup.prettify())
+
+# # temperatura = soup.find("span", class_= "_block _margin-b-5 -gray")
+# temperatura = soup.find("span", class_= "text-center">"Tarde")
+# print('###############################################')
+# print('###############################################')
+# print('###############################################')
+# print('\n')
+# print(temperatura.string)
+# print('\n')
+# print('###############################################')
+# print('###############################################')
