@@ -15,5 +15,5 @@ pais = dados['country']
 regiao = dados['region']
 print('#'*60)
 print('Detalhes do seu IP:  \n')
-print('IP: {4}\nRegião {1}\nPaís{2}\nCidade {3}\nOrg: {0}\n'.format(org, regiao, pais, cid, ip))
+print('IP: {4}\nRegião: {1}\nPaís: {2}\nCidade: {3}\nOrg: {0}\n'.format(org, regiao, pais, cid, ip))
 print('#'*60)
